@@ -3,6 +3,10 @@ body {
     height: 100vh;
 }
 
+p {
+    padding: 10px;
+}
+
 #splash {
     margin: auto auto;
 }
@@ -22,11 +26,11 @@ body {
 
 .center-label {
     position: relative;
-    top: 50vh;
+    top: 48vh;
     text-align: center;
     margin: 0 auto !important;
     color: white;
-    transform: translateY(-50%)
+    /* transform: translateY(-50%) */
 }
 
 #main-col {
@@ -38,4 +42,32 @@ body {
 #main {
     display: none;
     height: 100vh;
+    z-index: 1;
+}
+
+#about-blurb, #portfolio-blurb, #contact-blurb {
+    position: relative;
+    top:35vh;
+    margin: auto;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: none;
+    z-index: 2;
+    width: 75%;
+    background-color: #666;
+}
+
+.scale-out {
+    animation: scale-out-ver-top 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.scale-in {
+    animation: scale-in-ver-top 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.slide-in-right {
+    animation: slide-in-right 0.8s ease-in;
+    animation-fill-mode: forwards
 }
