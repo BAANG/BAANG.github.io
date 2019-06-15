@@ -2,6 +2,17 @@ body {
     background-image: url("../images/1lS7grH-san-francisco-wall-paper.jpg");
     background-size: 100vw;
     height: 100vh;
+    overflow: hidden;
+}
+
+#header {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    background:rgba(71, 71, 71, 0.7);
+    color: white;
 }
 
 h1 {
@@ -37,7 +48,12 @@ p {
     text-align: center;
     margin:auto auto !important;
     color: white;
-    /* transform: translateY(-50%) */
+
+}
+
+.center-label:hover {
+    animation: text-shadow-drop-center 0.6s ease-out;
+    animation-fill-mode: both;
 }
 
 #main-col {
@@ -58,13 +74,17 @@ p {
 
 #about-blurb, #portfolio-blurb, #contact-blurb {
     position: relative;
-    top:10vh;
+    top:-10vh;
     margin: auto;
     border-radius: 10px;
     color: whitesmoke;
     display: none;
     z-index: 2;
     width: 80%;
+}
+
+#portfolio-blurb {
+    width: 100%;
 }
 
 #back-button {
