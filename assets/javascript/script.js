@@ -1,11 +1,15 @@
 //Establish global variables
+var showAbout = false;
+var showPortfolio = false;
+var showContact = false;
+
 var hideSplash = function() {
    $("#splash").hide()
     console.log("Splash screen hidden...")
 }
 
 var removeAnimation = function() {
-    $(".center-label").removeClass("scale-in")
+    $("*").removeClass("scale-in scale-out slide-in-right slide-in-left slide-in-bottom")
 }
 
 var showMain = function() {
@@ -30,19 +34,43 @@ $(document).ready(function(){
     $(document).on("click", ".center-label", function(event){
         var clickID = event.target.id
 
-        if (clickID == "about-main") {
-            $("#portfolio-main, #contact-main").addClass("scale-out");
+        switch (clickID) {
+            case "about-main":
+                $("#portfolio-main, #contact-main").addClass("scale-out");
+                $("#portfolio-main, #contact-main").hide();
+                $("#about-blurb").show();
+                $("#about-blurb").addClass("slide-in-right");
+                setTimeout(removeAnimation, 1000);
+                showAbout = true;
+                break;
+
+            case "portfolio-main" :
+                $("#about-main, #contact-main").addClass("scale-out");
+                setTimeout(removeAnimation, 1000);
+                showPortfolio = true;
+                break;
+
+            case "contact-main" :
+                $("#about-main, #portfolio-main").addClass("scale-out");
+                setTimeout(removeAnimation, 1000);
+                showContact = true;
+                break;
+        }
+
+    })
+
+    $(document).on("click", "#back-button", function(){
+        switch (true) {
+            case (showAbout): 
+                $("#about-blurb").addClass("slide-out-right");
+                $("#portfolio-main, #contact-main").show();
+                $("#portfolio-main, #contact-main").addClass("scale-in");
+                setTimeout(removeAnimation, 1000);
+
             
-            $("#about-blurb").show()
-            $("#about-blurb").addClass("slide-in-right")
+            case (showPortfolio):
 
-
-        } else if (clickID == "portfolio-main") {
-            $("#about-main, #contact-main").addClass("scale-out")
-
-        } else if (clickID == "contact-main") {
-            $("#about-main, #portfolio-main").addClass("scale-out")
-
+            case (showContact):
         }
     })
 

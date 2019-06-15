@@ -57,6 +57,12 @@ p {
     background-color: #666;
 }
 
+.btn-floating {
+    position: relative;
+    top: -15px;
+    left: -15px;
+}
+
 .scale-out {
     animation: scale-out-ver-top 0.8s;
     animation-fill-mode: forwards;
@@ -68,6 +74,11 @@ p {
 }
 
 .slide-in-right {
-    animation: slide-in-right 0.8s ease-in;
+    animation: slide-in-right 0.8s;
+    animation-fill-mode: forwards
+}
+
+.slide-out-right {
+    animation: slide-out-right 0.8s;
     animation-fill-mode: forwards
 }
