@@ -1,0 +1,20 @@
+body {
+    background-color: #333;
+}
+
+#splash {
+    margin: auto auto;
+}
+
+.progress {
+    height: 6px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
