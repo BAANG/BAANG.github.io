@@ -5,6 +5,7 @@ body {
 
 p {
     padding: 10px;
+    margin: 5px;
 }
 
 #splash {
@@ -53,14 +54,18 @@ p {
     color: whitesmoke;
     display: none;
     z-index: 2;
-    width: 75%;
-    background-color: #666;
+    width: 80%;
 }
 
-.btn-floating {
+#back-button {
     position: relative;
-    top: -15px;
-    left: -15px;
+    top: 45px;
+    left: -28px;
+}
+
+.blurb-content {
+    background-color: #555;
+    border-radius: 10px;
 }
 
 .scale-out {
@@ -80,5 +85,23 @@ p {
 
 .slide-out-right {
     animation: slide-out-right 0.8s;
+    animation-fill-mode: forwards
+}
+.slide-in-left {
+    animation: slide-in-left 0.8s;
+    animation-fill-mode: forwards
+}
+
+.slide-out-left {
+    animation: slide-out-left 0.8s;
+    animation-fill-mode: forwards
+}
+.slide-in-bottom {
+    animation: slide-in-bottom 0.8s;
+    animation-fill-mode: forwards
+}
+
+.slide-out-bottom {
+    animation: slide-out-bottom 0.8s;
     animation-fill-mode: forwards
 }
