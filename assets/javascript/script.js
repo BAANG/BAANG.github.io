@@ -14,6 +14,7 @@ var removeAnimation = function() {
 
 var showMain = function() {
     $("#main").show()
+    $("#main").addClass("scale-in")
     $(".center-label").addClass("scale-in")
     setTimeout(removeAnimation, 800)
     console.log("Main screen visible...")
