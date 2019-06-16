@@ -20,9 +20,19 @@ h1 {
     -webkit-text-stroke-color: black;
  }
 
+h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    font-family: 'Lato', sans-serif
+}
+
 p {
     padding: 10px;
     margin: 5px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 #splash {
@@ -48,6 +58,7 @@ p {
     text-align: center;
     margin:auto auto !important;
     color: white;
+    font-family: 'Rubik', sans-serif;
 
 }
 
