@@ -3,6 +3,10 @@ var showAbout = false;
 var showPortfolio = false;
 var showContact = false;
 
+$('.carousel').carousel({
+    indicators: true
+});
+
 var hideSplash = function() {
    $("#splash").hide()
     console.log("Splash screen hidden...")

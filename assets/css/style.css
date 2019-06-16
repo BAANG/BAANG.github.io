@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/1lS7grH-san-francisco-wall-paper.jpg");
-    background-size: 100vw;
+    background-size: cover;
     height: 100vh;
     overflow: hidden;
 }
