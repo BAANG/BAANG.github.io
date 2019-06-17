@@ -5,6 +5,7 @@ body {
     overflow: hidden;
 }
 
+
 #header {
     position: absolute;
     bottom: 0px;
@@ -102,6 +103,12 @@ p {
     position: relative;
     top: 45px;
     left: -28px;
+}
+
+#profile-picture {
+    position: relative;
+    bottom: 50px;
+    right: -80%;
 }
 
 .blurb-content {
