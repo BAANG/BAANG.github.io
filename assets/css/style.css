@@ -63,7 +63,7 @@ p {
 
 }
 
-.center-label:hover {
+.center-label:hover, a:hover {
     animation: text-shadow-drop-center 0.6s ease-out;
     animation-fill-mode: both;
 }
@@ -96,7 +96,10 @@ p {
 }
 
 #portfolio-blurb {
-    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    width: 80vw;
 }
 
 #back-button {

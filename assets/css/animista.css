@@ -269,7 +269,7 @@
       text-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+      text-shadow: 0 0 18px rgba(0, 0, 0, 1.0);
     }
   }
   @keyframes text-shadow-drop-center {
@@ -277,7 +277,7 @@
       text-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+      text-shadow: 0 0 18px rgba(0, 0, 0, 1.0);
     }
   }
   
