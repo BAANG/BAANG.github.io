@@ -102,6 +102,10 @@ p {
     width: 80vw;
 }
 
+.portfolio-text {
+    height: 100%;
+}
+
 #back-button {
     position: relative;
     top: 45px;
