@@ -160,3 +160,17 @@ p {
     animation: slide-out-bottom 0.8s;
     animation-fill-mode: forwards
 }
+
+@media only screen and (max-width: 600px) {
+    #main-container-links {
+        position: relative;
+        top: -64px;
+    }
+    #blurbs {
+        position: relative;
+        top: -50px;
+        left: -120px;
+        
+        /* transform: translate(-50%, -50%); */
+    }
+}
