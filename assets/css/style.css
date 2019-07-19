@@ -97,9 +97,10 @@ p {
 
 #portfolio-blurb {
     position: absolute;
-    top: 5vh;
-    left: 10vw;
-    width: 80vw;
+    top: 3vh;
+    left: 3vw;
+    width: 94vw;
+    height: 94vw;
 }
 
 .portfolio-text {
