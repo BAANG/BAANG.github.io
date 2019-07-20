@@ -97,9 +97,10 @@ p {
 
 #portfolio-blurb {
     position: absolute;
-    top: 5vh;
-    left: 10vw;
-    width: 80vw;
+    top: 2vh;
+    left: 3vw;
+    width: 94vw;
+    height: 96vw;
 }
 
 .portfolio-text {
@@ -159,6 +160,15 @@ p {
 .slide-out-bottom {
     animation: slide-out-bottom 0.8s;
     animation-fill-mode: forwards
+}
+
+.portfolio-images {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+    object-position: auto 0;
 }
 
 @media only screen and (max-width: 600px) {
