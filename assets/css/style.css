@@ -162,6 +162,14 @@ p {
     animation-fill-mode: forwards
 }
 
+.portfolio-images {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+    object-position: auto 0;
+}
+
 @media only screen and (max-width: 600px) {
     #main-container-links {
         position: relative;
