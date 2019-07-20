@@ -9,7 +9,6 @@ $('.carousel').carousel({
 
 var hideSplash = function() {
    $("#splash").hide()
-    console.log("Splash screen hidden...")
 }
 
 var removeAnimation = function() {
@@ -21,7 +20,6 @@ var showMain = function() {
     $("#main").addClass("scale-in")
     $(".center-label").addClass("scale-in")
     setTimeout(removeAnimation, 800)
-    console.log("Main screen visible...")
 }
 
 var showBlurb = function(divId) {
@@ -31,7 +29,7 @@ var showBlurb = function(divId) {
 
 //On document load...
 $(document).ready(function(){
-    console.log("Document loaded...")
+    console.log('Website best viewed on standard desktop/laptop resolution')
 
     //3s timeout to hide splash screen; reveal main page
     setTimeout(hideSplash, 3000);
