@@ -3,14 +3,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146001568-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146001568-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-146001568-1');
-</script>
+        gtag('config', 'UA-146001568-1');
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,17 +39,17 @@
 
     <div class="container" id="main">
         <div class="row" id="main-container-links">
-            <div class="col s12 m4">
+            <div class="col s12 l4 m12">
                 <div id="about-me main-col">
                     <h1 class="center-label" id="about-main">about me</h1>
                 </div>
             </div>
-            <div class="col s12 m4">
+            <div class="col s12 l4 m12">
                 <div id="portfolio main-col">
                     <h1 class="center-label" id="portfolio-main">my work</h1>
                 </div>
             </div>
-            <div class="col s12 m4">
+            <div class="col s12 l4 m12">
                 <div id="contact main-col">
                     <h1 class="center-label" id="contact-main">contact me</h1>
                 </div>
@@ -67,7 +67,7 @@
                                 <p>I'm a Full Stack Developer born and raised in San Diego, CA and currently living and
                                     working in San Francisco, CA.</p>
                                 <p>My work ethic is my greatest strength-- and that, united with my lifelong student
-                                    mentality and my child-like fascination of new and innovative technology is what
+                                    mentality and my innate fascination of new and innovative technology is what
                                     keeps me from stagnating as both a professional and as a person.</p>
                                 <p>I have complete confidence in my arsenal of technical skills ranging from front-end
                                     skills in Javascript, CSS, and HTML to my ability to leverage back-end tech in
@@ -94,122 +94,192 @@
                             <div class="col s12 blurb-content z-depth-3">
                                 <br>
                                 <div class="row">
-                                    <div class="col s2">
-                                        <img class="portfolio-images" src="./assets/images/purrfect.png"
+                                    <div class="col l2 m12">
+                                        <img class="portfolio-images" src="./assets/images/fridge.png"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
-                                        <p>'Purr-fect Match' is a full-stack web application, pet adoption service. It
-                                            helps the user find an animal in need of a family in order to find
-                                            information, find contact information and eventually adopt. It's built upon
-                                            the Node.js environment, heavily relying on Express for functionality and
-                                            leverages third-party APIs used for populating our site's content as well as
-                                            for authentication.</p>
+                                    <div class="col l4 m12">
+                                        <p>
+                                            'FRIDGE' is a virtual fridge to store existing ingredients, find recipes
+                                            that use them, and then discover nearby grocery stores to purchase what
+                                            you’re missing. This application was coded using a typical MERN stack.
+                                            APIs/libraries integrated include Spoonacular, GoogleMaps, Material UI,
+                                            GooglePlaces, Okta, and Pixaby.
+                                        </p>
                                         <hr>
-                                        <a href="https://github.com/BAANG/Purr-fect-Match">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                        <a href="https://github.com/BAANG/virtual-fridge">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button>
                                         </a>
-                                        <a href="https://purr-fect-match.herokuapp.com/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                        <a href="https://team-fridge.herokuapp.com/">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed
+                                                Link</button>
                                         </a>
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: MongoDB, Express, React, Node, JSX, Node,
+                                                    Mongoose, HTML, CSS
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col s2">
-                                        <img class="portfolio-images"
-                                            src="https://github.com/BAANG/Trivia-Game/raw/master/assets/images/screen1.PNG"
+                                    <div class="col l2 m12">
+                                        <img class="portfolio-images" src="./assets/images/fftclicky.png"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
-                                        <p class="portfolio-text">'Trivia-Game' is a basic trivia game created for the
-                                            UC Berkeley Coding Bootcamp made primarily with Javascript and the jQuery
-                                            CDN library. It utilizes Javascript timer events to accurately generate the
-                                            dynamic elements and to seemlessly progress through the CSS keyframe
-                                            animations queued up for different triggers in the game.</p>
+                                    <div class="col l4 m12">
+                                        <p class="portfolio-text">'FFT Clicky-Game' is a single-page web application
+                                            made with ReactJS, utilizing ES6 syntax deployed in a Node.js environment.
+                                            This application is a simple memory game in which the user must select cards
+                                            without repeating themselves. At the same time, once a user selects a card,
+                                            the order in which the cards are rendered is shuffled.</p>
                                         <hr>
-                                        <a href="https://github.com/BAANG/Trivia-Game">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                        <a href="https://github.com/BAANG/Clicky-Game">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button></a>
-                                        <a href="https://baang.github.io/Trivia-Game/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                        <a href="https://baang.github.io/Clicky-Game/">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed
+                                                Link</button>
                                         </a>
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: React, Node, JSX, Node,
+                                                    Mongoose, HTML, CSS
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <hr>
+
                                 <div class="row">
-                                    <div class="col s2">
+                                    <div class="col l2 m12">
                                         <img class="portfolio-images"
                                             src="https://raw.githubusercontent.com/BAANG/Disgaea-RPG/master/assets/images/screen2.PNG"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
+                                    <div class="col l4 m12">
                                         <p class="portfolio-text">'Disgaea-RPG' is a basic role-playing game created for
                                             the UC Berkeley Coding Bootcamp designed primarily in Javascript and jQuery
                                             while heavily utilizing CSS keyframe animations across the user interface.
                                         </p>
                                         <hr>
                                         <a href="https://github.com/BAANG/Disgaea-RPG">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button>
                                         </a>
                                         <a href="https://baang.github.io/Disgaea-RPG/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed
+                                                Link</button>
                                         </a>
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: JavaScript, jQuery, HTML, CSS
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col s2">
-                                        <img class="portfolio-images"
-                                            src="https://github.com/BAANG/Super-Duper-Mixologist/raw/master/assets/images/screenshot.PNG"
+
+                                    <div class="col l2 m12">
+                                        <img class="portfolio-images" src="./assets/images/gbooks.png"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
-                                        <p class="portfolio-text">'Super-Duper-Mixologist' is a basic web-based game
-                                            created for the UC Berkeley Coding Bootcamp. The game's logic is made with
-                                            Javascript and utilizes the jQuery CDN library and the user interface
-                                            styling heavily utilizes the Bootstrap CSS library.</p>
+                                    <div class="col l4 m12">
+                                        <p class="portfolio-text">'Google Books Search' is a MERN Stack Application
+                                            utilizing Google Books API to search for books and MongoDB to save search
+                                            results for later.</p>
                                         <hr>
-                                        <a href="https://github.com/BAANG/Super-Duper-Mixologist">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                        <a href="https://github.com/BAANG/google-books">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button></a>
-                                        <a href="https://baang.github.io/Super-Duper-Mixologist/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                        <a href="https://secret-retreat-64198.herokuapp.com/">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed
+                                                Link</button>
                                         </a>
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: MongoDB, Express, React, Node, JSX, Node,
+                                                    Mongoose, HTML, CSS
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <hr>
+
                                 <div class="row">
-                                    <div class="col s2">
-                                        <img class="portfolio-images"
-                                            src="https://raw.githubusercontent.com/BAANG/Train-Scheduler/master/assets/images/screen1.PNG"
+                                    <div class="col l2 m12">
+                                        <img class="portfolio-images" src="./assets/images/petdadog.png"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
-                                        <p class="portfolio-text">'Train-Scheduler' is a web-based application made for
-                                            the UC Berkeley Coding Bootcamp that utilizes Javascript, jQuery, Moment.js
-                                            to parse data/values for time and Google Firebase for back-end data storage.
+                                    <div class="col l4 m12">
+                                        <p class="portfolio-text">'Pet-Da-Dog' is full-stack (MVC modeled) web app
+                                            utilizing a MySQL database and templating engine, Handlebars.js.
                                         </p>
                                         <hr>
-                                        <a href="https://github.com/BAANG/Train-Scheduler">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                        <a href="https://github.com/BAANG/Pet-Da-Dog">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button></a>
-                                        <a href="https://baang.github.io/Train-Scheduler/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                        <a href="https://lit-bayou-89965.herokuapp.com/">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed
+                                                Link</button>
                                         </a>
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: MySQL, JavaScript, jQuery, Node, HTML, CSS
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col s2">
-                                        <img class="portfolio-images" src="assets/images/sipss.PNG"
+
+                                    <div class="col l2 m12">
+                                        <img class="portfolio-images" src="assets/images/mogshop.png"
                                             style="width: 100%">
                                     </div>
-                                    <div class="col s4">
-                                        <p class="portfolio-text">'Sip First' is a web-based application created for the
-                                            UC Berkeley Coding Bootcamp that helps the user find the
-                                            nearest/highest-rated bar or cafe.</p>
+                                    <div class="col l4 m12">
+                                        <p class="portfolio-text">'Mog Shop' is a virtual command line interface
+                                            storefront, loosely based around items and currency(gil) that exists in the
+                                            roleplaying game series, Final Fantasy. Mogshop simulates a storefront in
+                                            that you have a finite amount of currency that you can then spend on buying
+                                            several many of the numerous items available in the storefront.</p>
                                         <hr>
-                                        <a href="https://github.com/djgoldstone/Sip">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
+                                        <a href="https://github.com/BAANG/Mogshop">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white">GitHub
                                                 Repository</button></a>
-                                        <a href="https://djgoldstone.github.io/Sip/">
-                                            <button class="waves-effect waves-light btn-large orange darken-3 text-white">Deployed Link</button>
+                                        <a href="#">
+                                            <button
+                                                class="waves-effect waves-light btn-large orange darken-3 text-white disabled">Deployed
+                                                Link</button>
                                         </a>
-
+                                        <div class='row'>
+                                            <div class="col s12">
+                                                <span class='tech-used'>
+                                                    <br>
+                                                    Technologies Used: JavaScript, Node, Inquirer, Chalk, CLI-Table, MySQL
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

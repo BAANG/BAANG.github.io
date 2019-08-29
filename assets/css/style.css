@@ -19,7 +19,11 @@ body {
 h1 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
- }
+}
+
+h1:hover {
+    cursor: pointer;
+}
 
 h5 {
     font-family: 'Rubik', sans-serif;
@@ -125,40 +129,40 @@ p {
 }
 
 .scale-out {
-    animation: scale-out-ver-top 0.8s;
+    animation: scale-out-ver-top 0.7s;
     animation-fill-mode: forwards;
 }
 
 .scale-in {
-    animation: scale-in-ver-top 0.8s;
+    animation: scale-in-ver-top 0.7s;
     animation-fill-mode: forwards;
 }
 
 .slide-in-right {
-    animation: slide-in-right 0.8s;
+    animation: slide-in-right 0.7s;
     animation-fill-mode: forwards
 }
 
 .slide-out-right {
-    animation: slide-out-right 0.8s;
+    animation: slide-out-right 0.7s;
     animation-fill-mode: forwards
 }
 .slide-in-left {
-    animation: slide-in-left 0.8s;
+    animation: slide-in-left 0.7s;
     animation-fill-mode: forwards
 }
 
 .slide-out-left {
-    animation: slide-out-left 0.8s;
+    animation: slide-out-left 0.7s;
     animation-fill-mode: forwards
 }
 .slide-in-bottom {
-    animation: slide-in-bottom 0.8s;
+    animation: slide-in-bottom 0.7s;
     animation-fill-mode: forwards
 }
 
 .slide-out-bottom {
-    animation: slide-out-bottom 0.8s;
+    animation: slide-out-bottom 0.7s;
     animation-fill-mode: forwards
 }
 
@@ -169,6 +173,20 @@ p {
     border-radius: 10px;
 
     object-position: auto 0;
+}
+
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.tech-used {
+    font-size: 11px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -186,9 +204,10 @@ p {
         top: -64px;
     }
     #blurbs {
+        max-width: 60vw;
         position: relative;
         top: -50px;
-        left: -120px;
+        /* left: ; */
         
         /* transform: translate(-50%, -50%); */
     }

@@ -12,13 +12,13 @@ var hideSplash = function() {
 }
 
 var removeAnimation = function() {
-    $("*").removeClass("scale-in scale-out slide-in-right slide-in-left slide-in-bottom slide-out-right slide-out-left slide-out-bottom")
+    $("*").removeClass("scale-in scale-out slide-in-right slide-in-left slide-in-bottom slide-out-right slide-out-left slide-out-bottom puff-in-center fade-in")
 }
 
 var showMain = function() {
     $("#main").show()
-    $("#main").addClass("scale-in")
-    $(".center-label").addClass("scale-in")
+    $("#main").addClass("fade-in")
+    $(".center-label").addClass("fade-in")
     setTimeout(removeAnimation, 800)
 }
 
