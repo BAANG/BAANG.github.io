@@ -99,7 +99,7 @@ p {
     width: 80%;
 }
 
-#portfolio-blurb, #about-blurb {
+#portfolio-blurb {
     position: absolute;
     top: 2vh;
     left: 3vw;
@@ -210,6 +210,14 @@ p {
         /* left: ; */
         
         /* transform: translate(-50%, -50%); */
+    }
+
+    #about-blurb {
+        position: absolute;
+        top: 2vh;
+        left: 3vw;
+        width: 94vw;
+        height: 96vw;
     }
 }
 
