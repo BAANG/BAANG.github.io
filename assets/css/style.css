@@ -99,7 +99,7 @@ p {
     width: 80%;
 }
 
-#portfolio-blurb {
+#portfolio-blurb, #about-blurb {
     position: absolute;
     top: 2vh;
     left: 3vw;
@@ -120,7 +120,7 @@ p {
 #profile-picture {
     position: relative;
     bottom: 50px;
-    right: -80%;
+    right: -60%;
 }
 
 .blurb-content {
@@ -204,11 +204,17 @@ p {
         top: -64px;
     }
     #blurbs {
-        max-width: 60vw;
+        /* max-width: 60vw; */
         position: relative;
-        top: -50px;
+        top: -30px;
         /* left: ; */
         
         /* transform: translate(-50%, -50%); */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #about-blurb, #portfolio-blurb, #contact-blurb {
+        width: 95vw;
     }
 }
